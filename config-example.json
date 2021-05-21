@@ -1,0 +1,19 @@
+{
+  "token": "DISCORD_BOT_TOKEN",
+  "checkInterval": 5,
+  "botActivity": "Google Reader",
+
+  "channels": {
+    "forum" : {
+      "feed" : "https://site.com/index.rss",
+      "channelId": "DISCORD_CHANNEL_ID",
+      "type": "New message in RSS"
+    },
+    "youtube": {
+      "feed" : "https://www.youtube.com/feeds/videos.xml?channel_id=YOUTUBE_CHANNEL_ID",
+      "channelId": "DISCORD_CHANNEL_ID",
+      "type": "New video"
+    }
+  }
+
+}
