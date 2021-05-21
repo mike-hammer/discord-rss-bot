@@ -1,13 +1,13 @@
 This is a simple Discord bot that can parse RSS feeds and send updates to specified text channels.
 You can add multiple feeds.
 
-###Installation
+### Installation
 `npm install`
 
 Rename `config-example.json` to `config.json` and fill in the correct values.
 
-###Usage
+### Usage
 `node index.js`
 
-###Author
+### Author
 :shipit: Lev Angel
