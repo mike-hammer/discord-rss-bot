@@ -64,7 +64,7 @@ async function setLastCheckTimestamp(){
     }
 }
 
-// Convert date 2020-05-23T10:00:16.000Z to timestamp in seconds
+// Convert date 2020-05-23T10:00:16.000Z to timestamp in milliseconds
 function getRecordPubTimestamp(isoDate){
-    return Date.parse( isoDate ) / 1000;
+    return Date.parse( isoDate );
 }
